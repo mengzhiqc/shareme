@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0106108716E78E0500E727F8 /* KVListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0106108516E78E0500E727F8 /* KVListViewController.m */; };
-		0106108816E78E0500E727F8 /* KVListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0106108616E78E0500E727F8 /* KVListViewController.xib */; };
 		01E5EAFD16E0ED6F002A699B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5EAFC16E0ED6F002A699B /* UIKit.framework */; };
 		01E5EAFF16E0ED6F002A699B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5EAFE16E0ED6F002A699B /* Foundation.framework */; };
 		01E5EB0116E0ED6F002A699B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5EB0016E0ED6F002A699B /* CoreGraphics.framework */; };
@@ -23,13 +21,16 @@
 		01E5EB1F16E0F1A2002A699B /* KVUserLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EB1D16E0F1A2002A699B /* KVUserLoginController.xib */; };
 		01E5EBB816E4A4CA002A699B /* KVMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5EBB616E4A4CA002A699B /* KVMainMenuViewController.m */; };
 		01E5EBB916E4A4CA002A699B /* KVMainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EBB716E4A4CA002A699B /* KVMainMenuViewController.xib */; };
-		01E5EBBB16E4C3F0002A699B /* taowa.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EBBA16E4C3F0002A699B /* taowa.png */; };
+		8BA5546616EC5219009EF00C /* KVIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5546416EC5219009EF00C /* KVIntroduceViewController.m */; };
+		8BA5546716EC5219009EF00C /* KVIntroduceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA5546516EC5219009EF00C /* KVIntroduceViewController.xib */; };
+		8BA5546D16EC6133009EF00C /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA5546C16EC6133009EF00C /* bg.png */; };
+		8BA5547316EC6750009EF00C /* KVBlogListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5547216EC6750009EF00C /* KVBlogListViewController.m */; };
+		8BA5547616EC6946009EF00C /* KVBlog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5547516EC6946009EF00C /* KVBlog.m */; };
+		8BA5547D16EC76FA009EF00C /* KVBlogDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5547C16EC76FA009EF00C /* KVBlogDetailViewController.m */; };
+		8BA5547F16EC78D8009EF00C /* KVBlogDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA5547E16EC78D8009EF00C /* KVBlogDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0106108416E78E0500E727F8 /* KVListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVListViewController.h; sourceTree = "<group>"; };
-		0106108516E78E0500E727F8 /* KVListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVListViewController.m; sourceTree = "<group>"; };
-		0106108616E78E0500E727F8 /* KVListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVListViewController.xib; sourceTree = "<group>"; };
 		01BEBE3C16E7864200FC4D4B /* KVSayGoodBye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVSayGoodBye.h; sourceTree = "<group>"; };
 		01E5EAF916E0ED6F002A699B /* Share Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Share Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E5EAFC16E0ED6F002A699B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -51,7 +52,17 @@
 		01E5EBB516E4A4CA002A699B /* KVMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMainMenuViewController.h; sourceTree = "<group>"; };
 		01E5EBB616E4A4CA002A699B /* KVMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMainMenuViewController.m; sourceTree = "<group>"; };
 		01E5EBB716E4A4CA002A699B /* KVMainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVMainMenuViewController.xib; sourceTree = "<group>"; };
-		01E5EBBA16E4C3F0002A699B /* taowa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taowa.png; sourceTree = "<group>"; };
+		8BA5546316EC5219009EF00C /* KVIntroduceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVIntroduceViewController.h; sourceTree = "<group>"; };
+		8BA5546416EC5219009EF00C /* KVIntroduceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVIntroduceViewController.m; sourceTree = "<group>"; };
+		8BA5546516EC5219009EF00C /* KVIntroduceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVIntroduceViewController.xib; sourceTree = "<group>"; };
+		8BA5546C16EC6133009EF00C /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		8BA5547116EC6750009EF00C /* KVBlogListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVBlogListViewController.h; sourceTree = "<group>"; };
+		8BA5547216EC6750009EF00C /* KVBlogListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVBlogListViewController.m; sourceTree = "<group>"; };
+		8BA5547416EC6946009EF00C /* KVBlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVBlog.h; sourceTree = "<group>"; };
+		8BA5547516EC6946009EF00C /* KVBlog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVBlog.m; sourceTree = "<group>"; };
+		8BA5547B16EC76FA009EF00C /* KVBlogDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVBlogDetailViewController.h; sourceTree = "<group>"; };
+		8BA5547C16EC76FA009EF00C /* KVBlogDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVBlogDetailViewController.m; sourceTree = "<group>"; };
+		8BA5547E16EC78D8009EF00C /* KVBlogDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVBlogDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,21 +110,28 @@
 		01E5EB0216E0ED6F002A699B /* Share Me */ = {
 			isa = PBXGroup;
 			children = (
-				01E5EBB416E4A222002A699B /* View */,
 				01E5EBB316E4A218002A699B /* Controller */,
 				01E5EB0B16E0ED6F002A699B /* KVAppDelegate.h */,
 				01E5EB0C16E0ED6F002A699B /* KVAppDelegate.m */,
-				01E5EB0316E0ED6F002A699B /* Supporting Files */,
-				01E5EB1B16E0F1A2002A699B /* KVUserLoginController.h */,
-				01E5EB1C16E0F1A2002A699B /* KVUserLoginController.m */,
-				01E5EB1D16E0F1A2002A699B /* KVUserLoginController.xib */,
+				8BA5547416EC6946009EF00C /* KVBlog.h */,
+				8BA5547516EC6946009EF00C /* KVBlog.m */,
+				8BA5547B16EC76FA009EF00C /* KVBlogDetailViewController.h */,
+				8BA5547C16EC76FA009EF00C /* KVBlogDetailViewController.m */,
+				8BA5547E16EC78D8009EF00C /* KVBlogDetailViewController.xib */,
+				8BA5547116EC6750009EF00C /* KVBlogListViewController.h */,
+				8BA5547216EC6750009EF00C /* KVBlogListViewController.m */,
+				8BA5546316EC5219009EF00C /* KVIntroduceViewController.h */,
+				8BA5546416EC5219009EF00C /* KVIntroduceViewController.m */,
+				8BA5546516EC5219009EF00C /* KVIntroduceViewController.xib */,
 				01E5EBB516E4A4CA002A699B /* KVMainMenuViewController.h */,
 				01E5EBB616E4A4CA002A699B /* KVMainMenuViewController.m */,
 				01E5EBB716E4A4CA002A699B /* KVMainMenuViewController.xib */,
-				0106108416E78E0500E727F8 /* KVListViewController.h */,
-				0106108516E78E0500E727F8 /* KVListViewController.m */,
-				0106108616E78E0500E727F8 /* KVListViewController.xib */,
 				01BEBE3C16E7864200FC4D4B /* KVSayGoodBye.h */,
+				01E5EB1B16E0F1A2002A699B /* KVUserLoginController.h */,
+				01E5EB1C16E0F1A2002A699B /* KVUserLoginController.m */,
+				01E5EB1D16E0F1A2002A699B /* KVUserLoginController.xib */,
+				01E5EB0316E0ED6F002A699B /* Supporting Files */,
+				01E5EBB416E4A222002A699B /* View */,
 			);
 			path = "Share Me";
 			sourceTree = "<group>";
@@ -121,7 +139,7 @@
 		01E5EB0316E0ED6F002A699B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				01E5EBBA16E4C3F0002A699B /* taowa.png */,
+				8BA5546C16EC6133009EF00C /* bg.png */,
 				01E5EB0416E0ED6F002A699B /* Share Me-Info.plist */,
 				01E5EB0516E0ED6F002A699B /* InfoPlist.strings */,
 				01E5EB0816E0ED6F002A699B /* main.m */,
@@ -206,8 +224,9 @@
 				01E5EB1A16E0F08B002A699B /* 20130301223845101_0.PNG in Resources */,
 				01E5EB1F16E0F1A2002A699B /* KVUserLoginController.xib in Resources */,
 				01E5EBB916E4A4CA002A699B /* KVMainMenuViewController.xib in Resources */,
-				01E5EBBB16E4C3F0002A699B /* taowa.png in Resources */,
-				0106108816E78E0500E727F8 /* KVListViewController.xib in Resources */,
+				8BA5546716EC5219009EF00C /* KVIntroduceViewController.xib in Resources */,
+				8BA5546D16EC6133009EF00C /* bg.png in Resources */,
+				8BA5547F16EC78D8009EF00C /* KVBlogDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +241,10 @@
 				01E5EB0D16E0ED6F002A699B /* KVAppDelegate.m in Sources */,
 				01E5EB1E16E0F1A2002A699B /* KVUserLoginController.m in Sources */,
 				01E5EBB816E4A4CA002A699B /* KVMainMenuViewController.m in Sources */,
-				0106108716E78E0500E727F8 /* KVListViewController.m in Sources */,
+				8BA5546616EC5219009EF00C /* KVIntroduceViewController.m in Sources */,
+				8BA5547316EC6750009EF00C /* KVBlogListViewController.m in Sources */,
+				8BA5547616EC6946009EF00C /* KVBlog.m in Sources */,
+				8BA5547D16EC76FA009EF00C /* KVBlogDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

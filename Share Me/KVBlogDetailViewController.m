@@ -1,18 +1,22 @@
 //
-//  KVListViewController.m
+//  KVBlogDetailViewController.m
 //  Share Me
 //
-//  Created by 孟 智 on 13-3-6.
+//  Created by developer on 13-3-10.
 //  Copyright (c) 2013年 孟 智. All rights reserved.
 //
 
-#import "KVListViewController.h"
+#import "KVBlogDetailViewController.h"
 
-@interface KVListViewController ()
+@interface KVBlogDetailViewController ()
 
 @end
 
-@implementation KVListViewController
+@implementation KVBlogDetailViewController
+@synthesize blog;
+@synthesize btitle;
+@synthesize bcontent;
+@synthesize bauthor;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +30,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+	// Do any additional setup after loading the view.
+    self.btitle.text =blog.title;
+    self.bcontent.text = blog.content;
+    self.bauthor.text = blog.author;
 }
 
 - (void)didReceiveMemoryWarning

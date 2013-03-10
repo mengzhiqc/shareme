@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "KVSayGoodBye.h"
 
-@interface KVMainMenuViewController : UIViewController<KVSayGoodBye>
+@interface KVMainMenuViewController : UIViewController
 
-@property (strong,nonatomic) UIImage *picture;
--(IBAction)backToLogin;
+- (IBAction)goList:(id)sender;
+- (IBAction)goIntroduce:(id)sender;
+
+
 
 @end

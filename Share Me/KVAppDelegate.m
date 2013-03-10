@@ -16,7 +16,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
 
-    
     self.window.backgroundColor = [UIColor whiteColor];
     KVUserLoginController *loginView = [[KVUserLoginController alloc] initWithNibName:@"KVUserLoginController" bundle:nil];
     self.window.rootViewController = loginView;
