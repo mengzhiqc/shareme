@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0106108716E78E0500E727F8 /* KVListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0106108516E78E0500E727F8 /* KVListViewController.m */; };
+		0106108816E78E0500E727F8 /* KVListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0106108616E78E0500E727F8 /* KVListViewController.xib */; };
 		01E5EAFD16E0ED6F002A699B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5EAFC16E0ED6F002A699B /* UIKit.framework */; };
 		01E5EAFF16E0ED6F002A699B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5EAFE16E0ED6F002A699B /* Foundation.framework */; };
 		01E5EB0116E0ED6F002A699B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5EB0016E0ED6F002A699B /* CoreGraphics.framework */; };
@@ -16,9 +18,19 @@
 		01E5EB0F16E0ED6F002A699B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EB0E16E0ED6F002A699B /* Default.png */; };
 		01E5EB1116E0ED6F002A699B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EB1016E0ED6F002A699B /* Default@2x.png */; };
 		01E5EB1316E0ED6F002A699B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EB1216E0ED6F002A699B /* Default-568h@2x.png */; };
+		01E5EB1A16E0F08B002A699B /* 20130301223845101_0.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EB1916E0F08B002A699B /* 20130301223845101_0.PNG */; };
+		01E5EB1E16E0F1A2002A699B /* KVUserLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5EB1C16E0F1A2002A699B /* KVUserLoginController.m */; };
+		01E5EB1F16E0F1A2002A699B /* KVUserLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EB1D16E0F1A2002A699B /* KVUserLoginController.xib */; };
+		01E5EBB816E4A4CA002A699B /* KVMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5EBB616E4A4CA002A699B /* KVMainMenuViewController.m */; };
+		01E5EBB916E4A4CA002A699B /* KVMainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EBB716E4A4CA002A699B /* KVMainMenuViewController.xib */; };
+		01E5EBBB16E4C3F0002A699B /* taowa.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EBBA16E4C3F0002A699B /* taowa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0106108416E78E0500E727F8 /* KVListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVListViewController.h; sourceTree = "<group>"; };
+		0106108516E78E0500E727F8 /* KVListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVListViewController.m; sourceTree = "<group>"; };
+		0106108616E78E0500E727F8 /* KVListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVListViewController.xib; sourceTree = "<group>"; };
+		01BEBE3C16E7864200FC4D4B /* KVSayGoodBye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVSayGoodBye.h; sourceTree = "<group>"; };
 		01E5EAF916E0ED6F002A699B /* Share Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Share Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E5EAFC16E0ED6F002A699B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		01E5EAFE16E0ED6F002A699B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +44,14 @@
 		01E5EB0E16E0ED6F002A699B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		01E5EB1016E0ED6F002A699B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		01E5EB1216E0ED6F002A699B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		01E5EB1916E0F08B002A699B /* 20130301223845101_0.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20130301223845101_0.PNG; sourceTree = "<group>"; };
+		01E5EB1B16E0F1A2002A699B /* KVUserLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVUserLoginController.h; sourceTree = "<group>"; };
+		01E5EB1C16E0F1A2002A699B /* KVUserLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVUserLoginController.m; sourceTree = "<group>"; };
+		01E5EB1D16E0F1A2002A699B /* KVUserLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVUserLoginController.xib; sourceTree = "<group>"; };
+		01E5EBB516E4A4CA002A699B /* KVMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMainMenuViewController.h; sourceTree = "<group>"; };
+		01E5EBB616E4A4CA002A699B /* KVMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMainMenuViewController.m; sourceTree = "<group>"; };
+		01E5EBB716E4A4CA002A699B /* KVMainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVMainMenuViewController.xib; sourceTree = "<group>"; };
+		01E5EBBA16E4C3F0002A699B /* taowa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taowa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 		01E5EAF016E0ED6F002A699B = {
 			isa = PBXGroup;
 			children = (
+				01E5EB1916E0F08B002A699B /* 20130301223845101_0.PNG */,
 				01E5EB0216E0ED6F002A699B /* Share Me */,
 				01E5EAFB16E0ED6F002A699B /* Frameworks */,
 				01E5EAFA16E0ED6F002A699B /* Products */,
@@ -78,9 +99,21 @@
 		01E5EB0216E0ED6F002A699B /* Share Me */ = {
 			isa = PBXGroup;
 			children = (
+				01E5EBB416E4A222002A699B /* View */,
+				01E5EBB316E4A218002A699B /* Controller */,
 				01E5EB0B16E0ED6F002A699B /* KVAppDelegate.h */,
 				01E5EB0C16E0ED6F002A699B /* KVAppDelegate.m */,
 				01E5EB0316E0ED6F002A699B /* Supporting Files */,
+				01E5EB1B16E0F1A2002A699B /* KVUserLoginController.h */,
+				01E5EB1C16E0F1A2002A699B /* KVUserLoginController.m */,
+				01E5EB1D16E0F1A2002A699B /* KVUserLoginController.xib */,
+				01E5EBB516E4A4CA002A699B /* KVMainMenuViewController.h */,
+				01E5EBB616E4A4CA002A699B /* KVMainMenuViewController.m */,
+				01E5EBB716E4A4CA002A699B /* KVMainMenuViewController.xib */,
+				0106108416E78E0500E727F8 /* KVListViewController.h */,
+				0106108516E78E0500E727F8 /* KVListViewController.m */,
+				0106108616E78E0500E727F8 /* KVListViewController.xib */,
+				01BEBE3C16E7864200FC4D4B /* KVSayGoodBye.h */,
 			);
 			path = "Share Me";
 			sourceTree = "<group>";
@@ -88,6 +121,7 @@
 		01E5EB0316E0ED6F002A699B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01E5EBBA16E4C3F0002A699B /* taowa.png */,
 				01E5EB0416E0ED6F002A699B /* Share Me-Info.plist */,
 				01E5EB0516E0ED6F002A699B /* InfoPlist.strings */,
 				01E5EB0816E0ED6F002A699B /* main.m */,
@@ -97,6 +131,20 @@
 				01E5EB1216E0ED6F002A699B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01E5EBB316E4A218002A699B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		01E5EBB416E4A222002A699B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +203,11 @@
 				01E5EB0F16E0ED6F002A699B /* Default.png in Resources */,
 				01E5EB1116E0ED6F002A699B /* Default@2x.png in Resources */,
 				01E5EB1316E0ED6F002A699B /* Default-568h@2x.png in Resources */,
+				01E5EB1A16E0F08B002A699B /* 20130301223845101_0.PNG in Resources */,
+				01E5EB1F16E0F1A2002A699B /* KVUserLoginController.xib in Resources */,
+				01E5EBB916E4A4CA002A699B /* KVMainMenuViewController.xib in Resources */,
+				01E5EBBB16E4C3F0002A699B /* taowa.png in Resources */,
+				0106108816E78E0500E727F8 /* KVListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +220,9 @@
 			files = (
 				01E5EB0916E0ED6F002A699B /* main.m in Sources */,
 				01E5EB0D16E0ED6F002A699B /* KVAppDelegate.m in Sources */,
+				01E5EB1E16E0F1A2002A699B /* KVUserLoginController.m in Sources */,
+				01E5EBB816E4A4CA002A699B /* KVMainMenuViewController.m in Sources */,
+				0106108716E78E0500E727F8 /* KVListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,10 +299,12 @@
 		01E5EB1716E0ED6F002A699B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: 智 孟 (8387YNEZG2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Share Me/Share Me-Prefix.pch";
 				INFOPLIST_FILE = "Share Me/Share Me-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "086E5507-29B5-4DE7-8FD2-AF72D9100881";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -254,10 +312,12 @@
 		01E5EB1816E0ED6F002A699B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: 智 孟 (8387YNEZG2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Share Me/Share Me-Prefix.pch";
 				INFOPLIST_FILE = "Share Me/Share Me-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "086E5507-29B5-4DE7-8FD2-AF72D9100881";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -281,6 +341,7 @@
 				01E5EB1816E0ED6F002A699B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
