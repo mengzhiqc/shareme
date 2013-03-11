@@ -48,7 +48,7 @@
 #pragma mark -
 #pragma mark login to system
 - (IBAction)loginToSystem:(id)sender {
-    if (YES || [self checkUsernameAndPasswd:self.username.text passwd:self.passwd.text]) {
+    if ( [self checkUsernameAndPasswd:self.username.text passwd:self.passwd.text]) {
 
         [self presentViewController:self.navControl animated:TRUE completion:nil];
     } else {

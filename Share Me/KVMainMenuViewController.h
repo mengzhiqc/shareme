@@ -11,9 +11,6 @@
 
 @interface KVMainMenuViewController : UIViewController
 
-- (IBAction)goList:(id)sender;
-- (IBAction)goIntroduce:(id)sender;
-
-
+@property (strong ,nonatomic) NSMutableArray *picArray;
 
 @end

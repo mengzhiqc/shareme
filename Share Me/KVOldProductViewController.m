@@ -1,28 +1,27 @@
 //
-//  KVBlogDetailViewController.m
+//  KVOldProductViewController.m
 //  Share Me
 //
 //  Created by developer on 13-3-10.
 //  Copyright (c) 2013年 孟 智. All rights reserved.
 //
 
-#import "KVBlogDetailViewController.h"
+#import "KVOldProductViewController.h"
 
-@interface KVBlogDetailViewController ()
+@interface KVOldProductViewController ()
 
 @end
 
-@implementation KVBlogDetailViewController
-@synthesize blog;
-@synthesize btitle;
-@synthesize bcontent;
-@synthesize bauthor;
+@implementation KVOldProductViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        UITabBarItem *item = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemMostRecent tag:1];
+        self.tabBarItem = item;
+        
     }
     return self;
 }
@@ -30,11 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-    self.title = blog.title;
-    self.btitle.text =blog.title;
-    self.bcontent.text = blog.content;
-    self.bauthor.text = blog.author;
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning

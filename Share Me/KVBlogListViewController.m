@@ -44,6 +44,10 @@
     }
     self.blogList = blogListArray;
     
+    //新建blog按钮
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCompose target:self action:@selector(writeNewArticle)];
+    self.navigationItem.rightBarButtonItem = rightButton;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,6 +55,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction) writeNewArticle {}
 
 #pragma mark - Table view data source
 
@@ -80,6 +86,7 @@
     cell.textLabel.text= blog.title;
     
     cell.detailTextLabel.text = blog.author;
+    cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
     return cell;
 }
 
@@ -136,9 +143,10 @@
     KVBlogDetailViewController *detailController = [[KVBlogDetailViewController alloc]initWithNibName:@"KVBlogDetailViewController" bundle:nil];
     NSUInteger row = [indexPath row];
     KVBlog *blog = [self.blogList objectAtIndex:row];
-    NSLog(@"blog %@",blog);
     detailController.blog = blog;
     [self.navigationController pushViewController:detailController animated:YES];
 }
+
+
 
 @end
